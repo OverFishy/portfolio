@@ -3,26 +3,14 @@ import { About } from './about';
 import { Header } from './header';
 import { MySkills } from './myskills';
 import './App.css';
-import { Project } from './project'
+import { Projects } from './projectSection'
 
 function App() {
   return (
       <div className="App">
         < Header />
         < MySkills />
-        <div>
-          <h2>Projects</h2>
-          <Project name='SpaceShot'>
-            A nice game
-          </Project>
-          <Project name='SpaceShot'>
-            A nice game
-          </Project>
-          <Project name='SpaceShot'>
-            A nice game
-          </Project>
-          
-        </div>
+        < Projects />
       </div>
 
   );
