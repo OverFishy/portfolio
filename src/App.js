@@ -1,66 +1,55 @@
-import logo from './logo.svg';
 import { Routes, Route, Link } from "react-router-dom";
+import { About } from './about';
+import { Header } from './header';
+import { MySkills } from './myskills';
 import './App.css';
-
+import { Project } from './project'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button>press me</button>
+      <div className="App">
+        < Header />
+        < MySkills />
+        <div>
+          <h2>Projects</h2>
+          <Project name='SpaceShot'>
+            A nice game
+          </Project>
+          <Project name='SpaceShot'>
+            A nice game
+          </Project>
+          <Project name='SpaceShot'>
+            A nice game
+          </Project>
+          
+        </div>
+      </div>
 
-        </a>
-      </header>
-      <div className="RouteTest">
+  );
+}
+
+export default App;
+
+//  Routing function
+// function Home() {
+//   return (
+//     <>
+//       <main>
+//         <h2>Welcome to the homepage!</h2>
+//         <p>You can do this, I believe in you.</p>
+//       </main>
+//       <nav>
+//         <Link to="/about">About</Link>
+//       </nav>
+//     </>
+//   );
+// }
+
+// Router funcionality
+{/* <div className="RouteTest">
         <h1>Welcome to React Router Test!</h1>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
         </Routes>
-      </div>
-    </div>
-  );
-}
-
-function Home() {
-  return (
-    <>
-      <main>
-        <h2>Welcome to the homepage!</h2>
-        <p>You can do this, I believe in you.</p>
-      </main>
-      <nav>
-        <Link to="/about">About</Link>
-      </nav>
-    </>
-  );
-}
-
-function About() {
-  return (
-    <>
-      <main>
-        <h2>Who are we?</h2>
-        <p>
-          That feels like an existential question, don't you
-          think?
-        </p>
-      </main>
-      <nav>
-        <Link to="/">Home</Link>
-      </nav>
-    </>
-  );
-}
-
-export default App;
+      </div> */}

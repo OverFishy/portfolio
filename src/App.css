@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+.Nav-bar {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.skills {
+  list-style-type: none;
+  display: flex;
+  /* width: 60%; */
+  justify-content: space-around;
+}
+
+.skills > li {
+  border: 1px solid black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
