@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faInstagram, faGoogle, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faInstagram, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
 
 export function Footer() {

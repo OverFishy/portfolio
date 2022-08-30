@@ -2,7 +2,7 @@ import { Project } from './project'
 
 export function Projects() {
   return (
-    <div>
+    <div className='project-container'>
           <h2>Projects</h2>
           <Project name='SpaceShot' position='Co-Founder'>
             Created and Co-lead a team of up to 6 developers/creators to create SpaceShot, A beautiful hyper casual mobile game.
