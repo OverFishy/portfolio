@@ -24,6 +24,18 @@
   color: white;
 }
 
+.footer {
+  background-color: #282c34;
+  min-height: 20vh;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .links, .get-in-touch{
+  list-style-type: none;
+}
+
 .App-link {
   color: #61dafb;
 }

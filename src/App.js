@@ -4,6 +4,8 @@ import { Header } from './header';
 import { MySkills } from './myskills';
 import './App.css';
 import { Projects } from './projectSection'
+import { Contact} from './contact'
+import { Footer } from './footer'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         < Header />
         < MySkills />
         < Projects />
+        < Contact />
+        < Footer />
       </div>
 
   );
