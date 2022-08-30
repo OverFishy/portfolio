@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faInstagram, faGoogle, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
+
 export function Footer() {
   return (
     <div className="footer">
@@ -10,10 +14,10 @@ export function Footer() {
         <ul>Projects</ul>
       </li>
       <li className="get-in-touch">
-        <ul>Instegram</ul>
-        <ul>LinkedIN</ul>
-        <ul>Email</ul>
-        <ul>GitHub</ul>
+        <ul><FontAwesomeIcon icon={faLinkedin}></ FontAwesomeIcon></ul>
+        <ul><FontAwesomeIcon icon={faInstagram}></ FontAwesomeIcon></ul>
+        <ul><FontAwesomeIcon icon={faEnvelopeSquare} /></ul>
+        <ul><FontAwesomeIcon icon={faGithubSquare}></ FontAwesomeIcon></ul>
       </li>
     </div>
   )
