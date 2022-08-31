@@ -21,3 +21,5 @@ export function NavBar() {
     </div>
   )
 }
+{/* <a href="#" data-replace="get a link"><span>get a link</span></a> */}
+{/* <a href="#" id="style-2" data-replace="this link"><span>this link</span></a> */}

@@ -1,5 +1,9 @@
+import { ProjectPageStructure } from "./projectPageStructure"
+
 export function MaDoggo() {
   return (
-    <h1>Madoggo</h1>
+    < ProjectPageStructure >
+      <h2>MaDoggo</h2>
+    </ProjectPageStructure>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './project.css';
 
 export class Project extends React.Component {
   constructor(props) {
@@ -23,5 +24,3 @@ export class Project extends React.Component {
     )
   }
 }
-
-{/* <Link to='/projectName'>Contact</Link> */}

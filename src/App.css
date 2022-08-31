@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: white;
 }
 
 .App-logo {
@@ -20,27 +21,33 @@
   margin-bottom: 10px;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
+/* .App-header {
+  background-color: #5cdb95;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #edf5e1;
+} */
+
+a {
+  text-decoration: none;
 }
 
 .footer {
-  background-color: #282c34;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   min-height: 20vh;
-  color: white;
+  color: #edf5e1;
   display: flex;
   justify-content: space-evenly;
 }
@@ -54,9 +61,10 @@
 }
 
 .Nav-bar {
+  width: 100%;
+  min-height: 20vh;
   display: flex;
-  width: 60%;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .skills {

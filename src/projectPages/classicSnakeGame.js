@@ -1,5 +1,8 @@
+import { ProjectPageStructure } from "./projectPageStructure"
 export function ClassicSnakeGame() {
   return (
-    <h1>Classic Snake Game</h1>
+    < ProjectPageStructure >
+      <h2>ClassicSnakeGame</h2>
+    </ProjectPageStructure>
   )
 }

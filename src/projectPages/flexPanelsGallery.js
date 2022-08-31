@@ -1,5 +1,9 @@
+import { ProjectPageStructure } from "./projectPageStructure"
+
 export function FlexPanelsGallery() {
   return (
-    <h1>Flex Panels Gallery</h1>
+    < ProjectPageStructure >
+      <h2>FlexPanelsGallery</h2>
+    </ProjectPageStructure>
   )
 }

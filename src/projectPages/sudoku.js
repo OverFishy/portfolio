@@ -1,5 +1,9 @@
+import { ProjectPageStructure } from "./projectPageStructure"
+
 export function Sudoku() {
   return (
-    <h1>Sudoku</h1>
+    < ProjectPageStructure >
+      <h2>Sudoku</h2>
+    </ProjectPageStructure>
   )
 }

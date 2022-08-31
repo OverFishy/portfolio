@@ -1,5 +1,9 @@
+import { ProjectPageStructure } from "./projectPageStructure"
+
 export function SpaceShot() {
   return (
-    <h1>SpaceShot</h1>
+    < ProjectPageStructure >
+      <h2>SpaceShot</h2>
+    </ProjectPageStructure>
   )
 }
