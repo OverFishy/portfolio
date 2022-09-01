@@ -29,7 +29,7 @@ body {
 }
 
 .image {
-  height: 200px;
+  height: 250px;
   opacity: .7;
   overflow: hidden;
   transition: all .2s ease-in-out;
@@ -37,7 +37,7 @@ body {
 
 .image:hover,
 .card:hover .image {
-  height: 200px;
+  height: 250px;
   opacity: 1;
 }
 

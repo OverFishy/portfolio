@@ -1,5 +1,5 @@
 import { Header } from './header';
-import { MySkills } from './myskills';
+import { MySkills, MySkillsTest } from './myskills';
 import './App.css';
 import { Projects } from './projectSection'
 import { Contact} from './contact'
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       < Header />
-      < MySkills />
+      < MySkillsTest />
       < Projects />
       < Contact />
       < Footer />
@@ -19,20 +19,3 @@ function App() {
 
 
 export default App;
-
-      // function App() {
-      //   return (
-      //     <BrowserRouter>
-      //       <Routes>
-      //       <div className="App">
-      //         < Header />
-      //         < Route path='about' component={About} />
-      //         < MySkills />
-      //         < Projects />
-      //         < Contact />
-      //         < Footer />
-      //       </div>
-      //       </Routes>
-      //     </BrowserRouter>
-      //   );
-      // }
