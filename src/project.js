@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import './project.css';
+import dogLeft from './images/projectGifs/dogLeft.gif'
+import dogRight from './images/projectGifs/dogRight.gif'
 
 
 
@@ -20,17 +22,25 @@ export class Project extends React.Component {
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-8 col-xs-12 col-md-offset-3 col-sm-offset-2">
-            <div class="card">
-              <div class="image">
-                <img src={this.props.src} width="100%" alt=''/>
+            <div className='project-content'>
+              <div className='gif-container-left'>
+                <img src={dogLeft} alt=''/>
               </div>
-              <div class="text">
-                <div class="fab">
-                  {/* &#43; */}
-                  <Link to={this.projectURL}><span class="button-text" id='plusbtn'>&#43;</span></Link>
+              <div class="card">
+                <div class="image">
+                  <img src={this.props.src} width="100%" alt=''/>
                 </div>
-                <h3>{this.props.name}</h3>
-                <p>{this.props.children}</p>
+                <div class="text">
+                  <div class="fab">
+                    {/* &#43; */}
+                    <Link to={this.projectURL}><span class="button-text" id='plusbtn'>&#43;</span></Link>
+                  </div>
+                  <h3>{this.props.name}</h3>
+                  <p>{this.props.children}</p>
+                </div>
+              </div>
+              <div className='gif-container-right'>
+                <img src={dogRight} alt=''/>
               </div>
             </div>
           </div>

@@ -79,3 +79,11 @@ body {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+
+.project-content {
+  display: flex;
+}
+
+.gif-container-left img, .gif-container-right img {
+  width: 50%;
+}
