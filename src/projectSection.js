@@ -31,6 +31,8 @@ export function Projects() {
             As a part of my journey to learn and grow Iv'e created a Sudoku game! I got to tackle some challenges along the way like
             competability to a veraity of devices who might try to run the game, and even some algorithem to create a random board!
           </Project>
-    </div>
+       </div>
   )
 }
+
+//  {/* </div> */}
