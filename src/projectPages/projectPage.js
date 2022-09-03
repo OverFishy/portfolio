@@ -1,11 +1,16 @@
 import React from 'react'
+import { NavBar } from '../navbar'
+import { Footer } from '../footer'
 
-export class ProjectPageStructure extends React.Component {
+export class ProjectPageStructureText extends React.Component {
+  log() {
+    console.log(`this is my log: ${this.props.projectName}`);
+  }
   render() {
     return (
       <div>
-        <h1>PROJECT NAME</h1>
-        <p>{this.props.projectName}</p>
+        < NavBar />
+        <h1>{this.props.projectName}</h1>
         <h2>Project Purpose and Goal</h2>
         <p>{this.props.projectPurpose}</p>
         <h2>Web Stack and Explanation</h2>
@@ -14,6 +19,7 @@ export class ProjectPageStructure extends React.Component {
         <p>{this.props.projectProblens}</p>
         <h2>Lessons Learned</h2>
         <p>{this.props.projectlessons}</p>
+        < Footer />
       </div>
     )
   }
