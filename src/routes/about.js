@@ -1,5 +1,5 @@
 import { NavBar } from '../navbar'
-import { Footer } from '../footer'
+import { FooterTest } from '../footer'
 
 export function About() {
   return (
@@ -38,7 +38,7 @@ export function About() {
           <h2>Let's have a chat</h2>
           <p><strong>I want to hear from you!</strong></p>
           <p>Feel welcome to reach out thourght out my social media or this website</p>
-          < Footer />
+          < FooterTest />
       </main>
     </>
   );

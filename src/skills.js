@@ -1,10 +1,10 @@
-import css3 from './images/icons/css3.svg'
-import html5 from './images/icons/html5.svg'
-import js from './images/icons/js.svg'
-import nodeJs from './images/icons/nodeJs.svg'
-import react from './images/icons/react.svg'
-import ruby from './images/icons/ruby.svg'
-import sql from './images/icons/sql.svg'
+import css3 from './images/techIcons/css3.svg'
+import html5 from './images/techIcons/html5.svg'
+import js from './images/techIcons/js.svg'
+import nodeJs from './images/techIcons/nodeJs.svg'
+import react from './images/techIcons/react.svg'
+import ruby from './images/techIcons/ruby.svg'
+import sql from './images/techIcons/sql.svg'
 
 
 export function Icons() {

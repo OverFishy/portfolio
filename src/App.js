@@ -1,9 +1,9 @@
 import { Header } from './header';
-import { MySkills, MySkillsTest } from './myskills';
-import './App.css';
+import { MySkillsTest } from './myskills';
 import { Projects } from './projectSection'
 import { Contact} from './contact'
-import { Footer } from './footer'
+import { FooterTest } from './footer'
+import './App.css';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       < MySkillsTest />
       < Projects />
       < Contact />
-      < Footer />
+      < FooterTest />
     </div>
   );
 }

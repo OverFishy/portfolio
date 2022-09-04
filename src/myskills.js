@@ -63,7 +63,7 @@ export class MySkillsTest extends React.Component {
   render() {
     return (
       < ScrollTrigger onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
-        <div className={`content-card container ${this.state.visible ? 'personal-animate' : ''}`}>
+        <div className={`content-card container ${this.state.visible ? 'scroll-in' : ''}`}>
           <div className='info'>
             <img src={profilePic} alt='my profile img' />
             <div className='profile-info'>

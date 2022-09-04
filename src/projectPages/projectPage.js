@@ -1,11 +1,10 @@
 import React from 'react'
 import { NavBar } from '../navbar'
-import { Footer } from '../footer'
+import { FooterTest } from '../footer'
+import { Carousel } from './carousel'
 
 export class ProjectPageStructureText extends React.Component {
-  log() {
-    console.log(`this is my log: ${this.props.projectName}`);
-  }
+
   render() {
     return (
       <>
@@ -13,7 +12,7 @@ export class ProjectPageStructureText extends React.Component {
         <div className='project-page-container'>
           <div className='project-page-content'>
             <h1>{this.props.projectName}</h1>
-            <h2>Project Purpose and Goal</h2>
+            <h2>Project Purpose and Goals</h2>
             <p>{this.props.projectPurpose}</p>
             <h2>Web Stack and Explanation</h2>
             <p>{this.props.projectWebStack}</p>
@@ -23,7 +22,8 @@ export class ProjectPageStructureText extends React.Component {
             <p>{this.props.projectlessons}</p>
           </div>
         </div>
-        < Footer />
+        < Carousel projectPics={this.props.projectPics}/>
+        < FooterTest />
       </>
     )
   }
