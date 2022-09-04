@@ -15,42 +15,13 @@ export function NavBar() {
   }
 
   return (
-    <div className="nav">
-      <div className="slide">
-        <a href="#">Link Hover</a>
-      </div>
-      <div className="slide">
-        <a href="#">Link Hover</a>
-      </div>
-    </div>
+    <nav>
+      <ul class="menuItems">
+        <li><a href='#' data-item='Home'>Home</a></li>
+        <li><a href='#' data-item='About'>About</a></li>
+        <li><a href='#' data-item='Projects'>Projects</a></li>
+        <li><a href='#' data-item='Contact'>Contact</a></li>
+      </ul>
+    </nav>
   )
 }
-{/* <div className="nav">
-<div className="nav-box">
-  <a href="#">Home</a>
-  <div className="nav-box-color"></div>
-</div>
-<div className="nav-box">
-  <a href="#">Blog</a>
-  <div className="nav-box-color"></div>
-</div>
-<div className="nav-box">
-  <a href="#">Work</a>
-  <div className="nav-box-color"></div>
-</div>
-<div className="nav-box">
-  <a href="#">About</a>
-  <div className="nav-box-color"></div>
-</div>
-</div> */}
-
-
-// Trying to get the coloring to work
-{/* <div className="nav">
-<div className="nav-box">
-  <p id='example1' href="#">Home</p>
-  <div className="nav-box-color">
-    Home
-  </div>
-</div>
-</div> */}

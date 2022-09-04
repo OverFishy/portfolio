@@ -1,74 +1,81 @@
-.nav {
-  height: 30px;
-  width: 45%;
-  background: white;
-  border-radius: 30px;
-  border: 1px solid ghostwhite;
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Hack, monospace;
+  text-align: center;
+  margin: 25px 0;
+  top: 0;
+  background: #f9f9f9ad;
+  padding: 25px 5px;
+  border-radius: 50px;
+  height: 20px;
+  width: 520px;
+  transition: background .3s;
+}
+
+nav:hover {
+  background: #f5f5f5c4;
+}
+
+nav .menuItems {
+  list-style: none;
   display: flex;
   justify-content: space-evenly;
-  box-shadow: 0 0 30px white;
-  margin-bottom: 40px;
-  color: white;
+  width: 100%;
 }
 
-.slide a {
-  position: relative;
-  display: inline-block;
-  font-size: 2em;
-  font-weight: 800;
-  color: white;
-  overflow: hidden;
-  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 450ms ease;
-}
-
-.slide a:hover {
-  background-position: 0 100%;
-}
-
-.nav-box:hover .nav-box-color {
-  transform: translate(0px);
-}
-
-/* OLD NAV */
-/*
-.nav {
-  width: 40%;
+nav a {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 10px;
-  background: ghostwhite;
-  border: 1px solid black;
-  border-radius: 10px;
+  text-decoration: none;
+  color: #585656ad;
+  font-size: 24px;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+  /* z-index: 1; */
 }
 
-.nav-box {
-  overflow: visible;
-  position: relative;
-}
-
-.nav-box svg {
-  color: white;
-  text-shadow: 1px 1px 2px black;
-  position: relative;
+nav a::before {
   z-index: 1;
-}
-
-
-.nav-box-color {
-  pointer-events: none;
+  content: attr(data-item);
+  transition: 0.5s;
   position: absolute;
   top: 0;
-  background: green;
-  transform: translate(-100px);
-  height: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+  padding-bottom: 5px;
+  /* text-decoration: underline; */
+}
+
+nav a:hover::before {
   width: 100%;
-  transition: 0.8s;
-  z-index: 0;
-  display: inline-block;
-} */
+  transition: all 0.5s ease-in-out;
+}
+
+li:nth-child(1) a::before {
+  color:#4f50b9
+}
+
+li:nth-child(2) a::before {
+  color: #3f7abd;
+}
+
+li:nth-child(3) a::before {
+  color: #368bbf;
+}
+
+li:nth-child(4) a::before {
+  color: #279cc1;
+}
+
+nav ul {
+  padding: 0;
+}
