@@ -35,19 +35,21 @@ export function Carousel(props) {
         modules={[Pagination]}
         className="mySwiper"
       >
-        {/* I dont know why, but I cannot pass the props down to the slider component as props */}
         {props.projectPics.map(projectPic => (
         <SwiperSlide><img src={projectPic} alt=''/></SwiperSlide>
         ))}
-        {/* <SwiperSlide><img src={spaceshot1} alt=''/></SwiperSlide>
-        <SwiperSlide><img src={spaceshot2} alt=''/></SwiperSlide>
-        <SwiperSlide><img src={spaceshot3} alt=''/></SwiperSlide>
-        <SwiperSlide><img src={spaceshot4} alt=''/></SwiperSlide>
-        <SwiperSlide><img src={spaceshot5} alt=''/></SwiperSlide>
-        <SwiperSlide><img src={spaceshot6} alt=''/></SwiperSlide>
-        <SwiperSlide><img src={spaceshotgif1} alt=''/></SwiperSlide>
-        <SwiperSlide><img src={spaceshotgif2} alt=''/></SwiperSlide> */}
       </Swiper>
     </>
   );
 }
+
+// Good Ol' manual coding
+
+{/* <SwiperSlide><img src={spaceshot1} alt=''/></SwiperSlide>
+<SwiperSlide><img src={spaceshot2} alt=''/></SwiperSlide>
+<SwiperSlide><img src={spaceshot3} alt=''/></SwiperSlide>
+<SwiperSlide><img src={spaceshot4} alt=''/></SwiperSlide>
+<SwiperSlide><img src={spaceshot5} alt=''/></SwiperSlide>
+<SwiperSlide><img src={spaceshot6} alt=''/></SwiperSlide>
+<SwiperSlide><img src={spaceshotgif1} alt=''/></SwiperSlide>
+<SwiperSlide><img src={spaceshotgif2} alt=''/></SwiperSlide> */}
