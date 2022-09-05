@@ -1,0 +1,25 @@
+.project-page-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-page-content {
+  background: white;
+  margin-top: 125px;
+  text-align: center;
+  width: 70%;
+}
+
+.project-page-content {
+  width: 70%;
+}
+
+.project-page-content h1 {
+  font-size: 55px;
+  margin-bottom: 75px;
+}
+
+.project-page-content > p {
+  margin-bottom: 50px;
+}

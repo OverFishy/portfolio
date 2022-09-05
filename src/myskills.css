@@ -1,0 +1,99 @@
+.content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin-bottom: 155px;
+  margin-top: 150px;
+}
+
+.info {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+  background: white;
+  transition: 0.3s;
+}
+
+
+.info img {
+  width: 170px;
+  height: 170px;
+}
+
+.badges {
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+  width: 40%;
+  border-radius: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.info:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-45deg, #279cc1 0%, #4f50b9 100% );
+  transform: translate3d(0px, 20px, 0) scale(0.9);
+  filter: blur(20px);
+  opacity: var(0.7);
+  transition: 0.3s;
+  border-radius: inherit;
+}
+
+.info:hover {
+  transition: 0.3s;
+  transform: scale(1.01);
+}
+
+.info:hover::before {
+  transform: translate3d(0px, 20px, 0) scale(1);
+}
+
+.info::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+
+.icons img {
+  width: 20px;
+  height: 20px;
+  transition: 0.26s;
+}
+
+.icons img:hover {
+  transform: scale(1.3);
+}

@@ -1,38 +1,21 @@
 import { Header } from './header';
-import { MySkills } from './myskills';
-import './App.css';
+import { MySkillsTest } from './myskills';
 import { Projects } from './projectSection'
 import { Contact} from './contact'
-import { Footer } from './footer'
+import { FooterTest } from './footer'
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       < Header />
-      < MySkills />
+      < MySkillsTest />
       < Projects />
       < Contact />
-      < Footer />
+      < FooterTest />
     </div>
   );
 }
 
 
 export default App;
-
-      // function App() {
-      //   return (
-      //     <BrowserRouter>
-      //       <Routes>
-      //       <div className="App">
-      //         < Header />
-      //         < Route path='about' component={About} />
-      //         < MySkills />
-      //         < Projects />
-      //         < Contact />
-      //         < Footer />
-      //       </div>
-      //       </Routes>
-      //     </BrowserRouter>
-      //   );
-      // }
