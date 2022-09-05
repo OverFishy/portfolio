@@ -94,3 +94,7 @@ body {
   height: 250px;
   opacity: 1;
 }
+
+.fab a {
+  color: white;
+}

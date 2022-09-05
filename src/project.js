@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import './project.css';
 import dogLeft from './images/projectGifs/dogLeft.gif'
 import dogRight from './images/projectGifs/dogRight.gif'
@@ -53,8 +53,8 @@ export class Project extends React.Component {
               </div>
               <div class="text">
                 <div class="fab">
-                  {/* &#43; */}
-                  <Link to={this.projectURL}><span class="button-text" id='plusbtn'>&#43;</span></Link>
+                  {/* <Link to={this.projectURL}><span class="button-text" id='plusbtn'>&#43;</span></Link> */}
+                  <a href={this.projectURL}>&#43;</a>
                 </div>
                 <h3>{this.props.name}</h3>
                 <p>{this.props.children}</p>

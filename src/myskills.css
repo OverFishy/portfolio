@@ -98,18 +98,3 @@
   transform: scale(1.2);
   transition: 0.3s;
 }
-
-.project-page-container {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.project-page-content {
-  width: 60%;
-}
-
-.project-page-container p, h1{
-  margin-bottom: 50px;
-}
