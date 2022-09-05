@@ -18,7 +18,6 @@ export function Icons() {
       <img src={ruby} alt="ruby Logo" />
       <img src={sql} alt="sql Logo" />
       <img src={mongodb} alt='mongo DB' />
-
     </div>
   )
 }

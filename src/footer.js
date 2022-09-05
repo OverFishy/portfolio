@@ -1,6 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faInstagram, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
+import { HashLink as Link } from 'react-router-hash-link';
 import './footer.css'
 
 import GitHubIconColor from './images/socialIcons/GitHubIconColor.svg'
@@ -45,13 +43,20 @@ export function FooterTest() {
         <a href={linkedIn}><img src={LinkedinColor} alt='Linkedin'></img></a>
       </div>
       <ul class="list-inline">
-        <li class="list-inline-item">Home</li>
-        <li class="list-inline-item">Services</li>
-        <li class="list-inline-item">About</li>
-        <li class="list-inline-item">Terms</li>
-        <li class="list-inline-item">Privacy Policy</li>
+        <li><Link to="/#header" class="list-inline-item">Home</Link></li>
+        <li><Link to="/about" class="list-inline-item">About</Link></li>
+        <li><Link to="/#projects" class="list-inline-item">projects</Link></li>
+        <li><Link to="/#contact" class="list-inline-item">Contact</Link></li>
       </ul>
       <p class="copyright">Ofek Shtrit © 2022</p>
     </div>
   )
 }
+
+
+
+{/* <li class="list-inline-item">Home</li>
+<li class="list-inline-item">Services</li>
+<li class="list-inline-item">About</li>
+<li class="list-inline-item">Terms</li>
+<li class="list-inline-item">Privacy Policy</li> */}

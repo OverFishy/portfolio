@@ -4,7 +4,7 @@ import './header.css';
 export function Header() {
   return (
     <>
-      <div class="header">
+      <div class="header" id='header'>
         <div class="inner-header flex">
           < NavBar />
           <h1>Hello! ,I'm Ofek Shitrit | A fullstack Web Developer</h1>

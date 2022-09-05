@@ -1,4 +1,5 @@
 import { Icons, Skills } from './skills'
+import { HashLink as Link } from 'react-router-hash-link';
 import './myskills.css'
 import profilePic from './images/ProfilePicture.png'
 import ScrollTrigger from 'react-scroll-trigger';
@@ -74,6 +75,7 @@ export class MySkillsTest extends React.Component {
                 friends & familiy.
                 I keep an active lifestyle with a variety of diffrent sports, I'll surf, play football, soccer  & workout!
                 Every once in a while, I'd pack a bag, and go on a trip, by foot or my motorsycle.</p>
+                <Link to="/about">Keep reading my bio</Link>
             </div>
           </div>
           <div className='badges'>
