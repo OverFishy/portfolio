@@ -8,7 +8,6 @@ export function Header() {
         <div class="inner-header flex">
           < NavBar />
           <h1>Hello! ,I'm Ofek Shitrit | A fullstack Web Developer</h1>
-          <h3>Social links</h3>
           <p>I just love exploring & creating, I'm a constent learner and I just go CRAZY for the beach</p>
         </div>
         <div>
@@ -26,9 +25,10 @@ export function Header() {
           </svg>
         </div>
       </div>
-      <div class="content flex">
+      {/* Addition text if wanted */}
+      {/* <div class="content flex">
         <p>Additional text if wanted</p>
-      </div>
+      </div> */}
     </>
   )
 

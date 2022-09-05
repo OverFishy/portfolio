@@ -4,11 +4,11 @@
   align-items: center;
   width: 100vw;
   margin-bottom: 155px;
+  margin-top: 150px;
 }
 
 .info {
   z-index: 1;
-  /* border: 1px solid black; */
   position: relative;
   display: flex;
   align-items: center;

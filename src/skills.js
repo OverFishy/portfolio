@@ -5,7 +5,7 @@ import nodeJs from './images/techIcons/nodeJs.svg'
 import react from './images/techIcons/react.svg'
 import ruby from './images/techIcons/ruby.svg'
 import sql from './images/techIcons/sql.svg'
-
+import mongodb from './images/techIcons/mongodb.svg'
 
 export function Icons() {
   return (
@@ -17,6 +17,7 @@ export function Icons() {
       <img src={react} alt="React Logo" />
       <img src={ruby} alt="ruby Logo" />
       <img src={sql} alt="sql Logo" />
+      <img src={mongodb} alt='mongo DB' />
 
     </div>
   )

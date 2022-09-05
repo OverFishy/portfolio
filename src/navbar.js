@@ -17,9 +17,9 @@ export function NavBar() {
   return (
     <nav>
       <ul class="menuItems">
-        <li><a href='#' data-item='Home'>Home</a></li>
-        <li><a href='#' data-item='About'>About</a></li>
-        <li><a href='#' data-item='Projects'>Projects</a></li>
+        <li><a href='/' data-item='Home'>Home</a></li>
+        <li><a href='about' data-item='About'>About</a></li>
+        <li><a href='/#projects' data-item='Projects' >Projects</a></li>
         <li><a href='#' data-item='Contact'>Contact</a></li>
       </ul>
     </nav>

@@ -1,15 +1,18 @@
 import { NavBar } from '../navbar'
 import { FooterTest } from '../footer'
+import './about.css'
 
 export function About() {
   return (
-    <>
-      <main>
-        < NavBar />
-        <h1>Whatever you can do or dream you can, begin it; Boldness has genius, power, and magic in it.</h1>
-        <p>
-          A sentence that guided me in the past years, and I use as my mantra, to stay true to myself and my path
-        </p>
+    <div className='about-container'>
+      < NavBar />
+      <div className='about'>
+        <div className='mantar'>
+          <h1>Whatever you can do or dream you can, begin it;<br/> Boldness has genius, power, and magic in it.</h1>
+          <p>
+            A sentence that guided me in the past years, and I use as my mantra, to stay true to myself and my path
+          </p>
+        </div>
         <h2>My quick story</h2>
         <p><strong>I have been intriged by puzzels & legos ever since.</strong> Back in the day my mother would bring me a set of legos
         every once in a while, and I would just sit down, for hours at a time, and connecting all the parts and bits
@@ -38,8 +41,8 @@ export function About() {
           <h2>Let's have a chat</h2>
           <p><strong>I want to hear from you!</strong></p>
           <p>Feel welcome to reach out thourght out my social media or this website</p>
-          < FooterTest />
-      </main>
-    </>
+      </div>
+      < FooterTest />
+    </div>
   );
 }

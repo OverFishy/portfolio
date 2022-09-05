@@ -9,7 +9,7 @@ import sudoku from'./images/sudoku.png';
 export function Projects() {
   return (
     <div className='project-container'>
-          <h2>Projects</h2>
+          <h2 id="projects">Projects</h2>
           <Project name='SpaceShot' position='Co-Founder' src={spaceshot}>
             Created and Co-lead a team of up to 6 developers/creators to create SpaceShot, A beautiful hyper casual mobile game.
             Developed the idea, created a scatch & a protoype, assembeled a team and lead them, ran testion sycles of up to 200 + participens, collected data, analyzed it & adapted!.
