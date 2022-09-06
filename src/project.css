@@ -98,3 +98,11 @@ body {
 .fab a {
   color: white;
 }
+
+#projects {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 4px;
+  font-size: 50px;
+  margin-bottom: 100px;
+}

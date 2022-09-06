@@ -86,3 +86,7 @@ a {
     transform: rotate(360deg);
   }
 }
+
+#contact {
+  margin-bottom: 25px;
+}
