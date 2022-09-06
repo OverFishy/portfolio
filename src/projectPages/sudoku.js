@@ -15,6 +15,8 @@ export function Sudoku() {
         projectProblens={'some difficulties I expreiriense was creating the logic behind the game, setting up rules to determine if a player was correct in his number placement or not'}
         projectlessons={'I would say the best lesson I got while working on this project was the actual coding experience and implementing some of the newer things I have learned'}
         projectPics={[sudoku, sudoku1, sudoku2, sudoku3, sudokugif1]}
+        github={'https://github.com/OverFishy/Sudoku'}
+        site={'https://overfishy.github.io/Sudoku/sudoku.html'}
       />
   )
 }

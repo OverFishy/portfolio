@@ -15,6 +15,8 @@ export function ClassicSnakeGame() {
     projectProblens={'Couple of the challenges I faced building the snake game was creating the game controlleres for moible, using the touch inputs. The other one was about constently rerender the game, deleting and creating element.'}
     projectlessons={'Some nice learning experience about developing apps that target mobile users'}
     projectPics={[snake, snake3, snake1, snake2, snakegif1]}
+    github={'https://github.com/OverFishy/Snake-game'}
+    site={'https://overfishy.github.io/Snake-game/'}
   />
   )
 }

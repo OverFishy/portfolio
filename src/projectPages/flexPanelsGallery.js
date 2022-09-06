@@ -15,6 +15,8 @@ export function FlexPanelsGallery() {
         projectProblens={'The main problem I had during this project that it was to much fun to work with. When everythig you do have an immediete effect visable on the screen'}
         projectlessons={'I have learned alot about flexBox and Js functionality'}
         projectPics={[flexpanels1, flexpanels2, flexpanels3, flexpanels4, flexpanelsgif1]}
+        github={'https://github.com/OverFishy/Flex-Panel-Gallery/tree/main'}
+        site={'https://overfishy.github.io/Flex-Panel-Gallery/index-START.html'}
       />
   )
 }
