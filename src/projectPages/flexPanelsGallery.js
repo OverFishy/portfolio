@@ -17,6 +17,7 @@ export function FlexPanelsGallery() {
         projectPics={[flexpanels1, flexpanels2, flexpanels3, flexpanels4, flexpanelsgif1]}
         github={'https://github.com/OverFishy/Flex-Panel-Gallery/tree/main'}
         site={'https://overfishy.github.io/Flex-Panel-Gallery/index-START.html'}
+        backToProject={'/#flexpanelsgallery'}
       />
   )
 }

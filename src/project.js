@@ -1,11 +1,11 @@
 import React from 'react'
-// import { Link } from "react-router-dom";
 import './project.css';
-import dogLeft from './images/projectGifs/dogLeft.gif'
-import dogRight from './images/projectGifs/dogRight.gif'
-import { MotionAnimate } from 'react-motion-animate'
 import ScrollTrigger from 'react-scroll-trigger';
 
+// ANIMATION IMPROTS
+// import dogLeft from './images/projectGifs/dogLeft.gif'
+// import dogRight from './images/projectGifs/dogRight.gif'
+// import { MotionAnimate } from 'react-motion-animate'
 
 
 export class Project extends React.Component {
@@ -35,7 +35,7 @@ export class Project extends React.Component {
 
   render() {
     return (
-      <div className={`project-content ${this.props.className || ''}`}>
+      <div id={`${this.props.id}`} className={`project-content ${this.props.className || ''}`}>
         <ScrollTrigger onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
           <div class={`card container ${this.state.visible ? 'card-animate' : ''}`}>
             <div class={"image"}>

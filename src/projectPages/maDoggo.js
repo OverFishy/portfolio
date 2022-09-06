@@ -17,6 +17,7 @@ export function MaDoggo() {
         projectlessons={'I learned many lessons during the making of maDoggo, but I think the bigger one by far was actually seeing & procticing who all the parts connects (front end, back end, the browser & the DB)'}
         projectPics={[madoggo1, madoggo2, madoggo3, madoggo4, madoggo5, madoggo6]}
         github={'https://github.com/OverFishy/MaDoggo'}
+        backToProject={'/#madoggo'}
       />
   )
 }

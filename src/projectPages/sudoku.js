@@ -17,6 +17,7 @@ export function Sudoku() {
         projectPics={[sudoku, sudoku1, sudoku2, sudoku3, sudokugif1]}
         github={'https://github.com/OverFishy/Sudoku'}
         site={'https://overfishy.github.io/Sudoku/sudoku.html'}
+        backToProject={'/#sudoku'}
       />
   )
 }

@@ -17,6 +17,7 @@ export function ClassicSnakeGame() {
     projectPics={[snake, snake3, snake2, snakegif1, snake1]}
     github={'https://github.com/OverFishy/Snake-game'}
     site={'https://overfishy.github.io/Snake-game/'}
+    backToProject={'/#snake'}
   />
   )
 }
