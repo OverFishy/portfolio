@@ -16,9 +16,8 @@ export function Carousel(props) {
   console.log(`my log: ${props.projectPics}`);
   return (
     <>
-      <Swiper
+    <Swiper
         slidesPerView={"auto"}
-        centeredSlides={true}
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -44,3 +43,16 @@ export function Carousel(props) {
 <SwiperSlide><img src={spaceshot6} alt=''/></SwiperSlide>
 <SwiperSlide><img src={spaceshotgif1} alt=''/></SwiperSlide>
 <SwiperSlide><img src={spaceshotgif2} alt=''/></SwiperSlide> */}
+
+
+      // GOOD OL SWIPER
+      // <Swiper
+      //   slidesPerView={"auto"}
+      //   centeredSlides={true}
+      //   spaceBetween={30}
+      //   pagination={{
+      //     clickable: true,
+      //   }}
+      //   modules={[Pagination]}
+      //   className="mySwiper"
+      // ></Swiper>

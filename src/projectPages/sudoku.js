@@ -1,8 +1,8 @@
 import { ProjectPageStructureText } from "./projectPage.js"
 
-import sudoku1 from '../images/projectImages/sudoku/sudoku1.PNG'
-import sudoku2 from '../images/projectImages/sudoku/sudoku2.PNG'
-import sudoku3 from '../images/projectImages/sudoku/sudoku3.PNG'
+import sudoku1 from '../images/projectImages/sudoku/sudoku1.jpg'
+import sudoku2 from '../images/projectImages/sudoku/sudoku2.jpg'
+import sudoku3 from '../images/projectImages/sudoku/sudoku3.jpg'
 import sudokugif1 from '../images/projectImages/sudoku/sudokugif1.gif'
 import sudoku from '../images/sudoku.png'
 
