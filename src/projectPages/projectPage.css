@@ -125,8 +125,13 @@
 
   .back-to-project img{
     transition: 0.3s;
+    border-radius: 50%;
   }
 
   .back-to-project img:hover {
     scale: 1.1;
+    background: rgba(128, 128, 128, 0.11);
+    box-shadow: 5px 1px rgba(128, 128, 128, 0.363);
+    filter: invert(16%) sepia(77%) saturate(2788%) hue-rotate(212deg) brightness(96%) contrast(109%);
+
   }

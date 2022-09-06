@@ -24,7 +24,7 @@ export function FooterTest() {
       <ul class="list-inline">
         <li><Link to="/#header" class="list-inline-item">Home</Link></li>
         <li><Link to="/about" class="list-inline-item">About</Link></li>
-        <li><Link to="/#projects" class="list-inline-item">projects</Link></li>
+        <li><Link to="/#projects" class="list-inline-item">Projects</Link></li>
         <li><Link to="/#contact" class="list-inline-item">Contact</Link></li>
       </ul>
       <p class="copyright">Ofek Shtrit © 2022</p>
