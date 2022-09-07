@@ -7,7 +7,7 @@ export function Header() {
       <div class="header" id='header'>
         <div class="inner-header flex">
           < NavBar />
-          <h1>Hello! ,I'm Ofek Shitrit | A Fullstack Web Developer</h1>
+          <h1>Hello! I'm Ofek Shitrit | A Fullstack Web Developer</h1>
           <p>I just love exploring & creating, I'm a constant learner and I just go CRAZY for the beach</p>
         </div>
         <div>
@@ -33,4 +33,3 @@ export function Header() {
   )
 
 }
-

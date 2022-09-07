@@ -46,6 +46,7 @@ export class Project extends React.Component {
                 <a href={this.projectURL}>&#43;</a>
               </div>
               <h3>{this.props.name}</h3>
+              <h4>{this.props.position}</h4>
               <p>{this.props.children}</p>
             </div>
           </div>

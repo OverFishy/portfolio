@@ -51,14 +51,14 @@ export class MySkillsTest extends React.Component {
           <div className='info'>
             <img src={profilePic} alt='my profile img' />
             <div className='profile-info'>
-              <h1>My skills</h1>
-              <h3>About myself</h3>
+              <h1>About myself</h1>
+              <h3>short introduction</h3>
               <div className='text-container'>
-                <p>My name is Ofek, I'm 25 Y.O from Tel-Aviv Israel,
-                  I would say I'm pretty outgoing and social and love to spend time hanging with
-                  friends & family.
-                  I keep an active lifestyle with a variety of different sports, I surf, play football, soccer  & workout!
-                  Every once in a while, I pack a bag, and go on a trip, by foot or my motorcycle.</p>
+                <p>Hey, my name is Ofek, I'm 25 Y.O. from Tel-Aviv Israel.
+                I'm pretty outgoing, social and I love to spend time hanging out with
+                friends and family.
+                I keep an active lifestyle, I practice a variety of different sports including wave surfing, playing football, soccer and working out!
+                Every once in a while, I pack a bag, and go on a trip, by foot or my motorcycle.</p>
                 <Link className='btn-bio' to="/about#about">Keep reading my bio</Link>
               </div>
             </div>
@@ -74,14 +74,14 @@ export class MySkillsTest extends React.Component {
           <div className='content-card-mobile'>
             <img src={profilePic} alt='my profile img' />
             <div className='about-header'>
-              <h1>My skills</h1>
-              <h3>About myself</h3>
+              <h1>About myself</h1>
+              <h3>short introduction</h3>
             </div>
             <div className='text'>
-              <p>My name is Ofek, I'm 25 Y.O from Tel-Aviv Israel,
-                I would say I'm pretty outgoing and social and love to spend time hanging with
-                friends & family.
-                I keep an active lifestyle with a variety of different sports, I surf, play football, soccer  & workout!
+              <p>Hey, my name is Ofek, I'm 25 Y.O. from Tel-Aviv Israel.
+                I'm pretty outgoing, social and I love to spend time hanging out with
+                friends and family.
+                I keep an active lifestyle, I practice a variety of different sports including wave surfing, playing football, soccer and working out!
                 Every once in a while, I pack a bag, and go on a trip, by foot or my motorcycle.</p>
               <Link className='btn-bio' to="/about">Keep reading my bio</Link>
             </div>

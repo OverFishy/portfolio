@@ -27,7 +27,7 @@ export function FooterTest() {
         <li><Link to="/#projects" class="list-inline-item">Projects</Link></li>
         <li><Link to="/#contact" class="list-inline-item">Contact</Link></li>
       </ul>
-      <p class="copyright">Ofek Shtrit © 2022</p>
+      <p class="copyright">Ofek Shitrit © 2022</p>
     </div>
   )
 }

@@ -28,7 +28,7 @@ export function Projects() {
           <Project name='Sudoku' position='Personal project' src={sudoku} id='sudoku'>
             I used to play Sudoku with my grandmother, a LOT. She taught me the logic behind this jumble of numbers.
             So it was only logical for me to create a Sudoku game as part of my development journey! Along the way, I had to overcome a few challenges,
-            such as compatibility with a variety of devices and developing an algorithm to create a random playing field.
+            such as compatibility with a variety of devices and diving into algorithms to create a random playing field.
           </Project>
        </div>
   )

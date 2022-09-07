@@ -19,7 +19,7 @@ export function About() {
           {/* My quick story */}
         </h2>
         <p>
-          <strong>Ever since I can remember, I have been fascinated by puzzles and Legos.</strong>
+          <strong>Ever since I can remember, I have been fascinated by puzzles and Legos. </strong>
           Back then, my mother would bring me a Lego set every now and then, and I could occupy myself with it for hours.
           My mother says she had to argue with me to make me leave the set because I couldn't stop until every piece was in its proper place.
           As an adult, I can say that I have adopted some crucial skills from this experience and incorporated them into my life:
@@ -36,7 +36,7 @@ export function About() {
           I think what fascinates me most about web development is the constant logical challenges you encounter when programming.
           You have a goal you want to achieve, and countless ways of getting there!
           And with every new technology I learn about, my ability to solve those challenges is strengthened.
-          But besides all the logical challenges to solve, as a developer I try to write the cleanest, most consistent, readable and
+          With those logic challenges in mind, as a developer, I put a lot of emphasis trying to write the cleanest, most consistent, readable and
           manageable code above all else. It's great when features work, but it's even greater when they can stay that way regardless
           of who is working on them.
           {/* I think what have caught my attention in web development is the constent logic challenges you face
