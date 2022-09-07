@@ -7,7 +7,7 @@ export function About() {
     <div className='about-container'>
       < NavBar />
       <div className='about'>
-        <div className='mantar'>
+        <div className='mantar' id='about'>
           <h1>Whatever you can do or dream you can, begin it;<br/> Boldness has genius, power, and magic in it.</h1>
           <p>
             A quote that has guided me over the past few years and that I use as my mantra to stay true to myself and my path.

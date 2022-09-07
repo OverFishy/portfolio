@@ -59,7 +59,7 @@ export class MySkillsTest extends React.Component {
                   friends & family.
                   I keep an active lifestyle with a variety of different sports, I surf, play football, soccer  & workout!
                   Every once in a while, I pack a bag, and go on a trip, by foot or my motorcycle.</p>
-                <Link className='btn-bio' to="/about">Keep reading my bio</Link>
+                <Link className='btn-bio' to="/about#about">Keep reading my bio</Link>
               </div>
             </div>
           </div>
@@ -85,6 +85,9 @@ export class MySkillsTest extends React.Component {
                 Every once in a while, I pack a bag, and go on a trip, by foot or my motorcycle.</p>
               <Link className='btn-bio' to="/about">Keep reading my bio</Link>
             </div>
+          </div>
+          <div className='icons-section'>
+              < Icons />
           </div>
         </div>
       )

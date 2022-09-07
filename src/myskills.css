@@ -135,7 +135,9 @@
 .content-card-mobile-container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
   margin-top: 150px;
   margin-bottom: 155px;
 }
@@ -177,4 +179,14 @@
 .content-card-mobile .text p {
   margin-bottom: 20px;
   margin-top: 3px;
+}
+
+.content-card-mobile-container .icons-section {
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+  width: 75%;
+  display: flex;
+  justify-content: center;
 }
