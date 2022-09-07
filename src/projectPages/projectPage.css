@@ -44,6 +44,15 @@
   margin-right: 12px;
 }
 
+@media (max-width: 600px) {
+  .bn5 {
+    margin: 7px
+  }
+  .project-page-content {
+    width: 80%;
+  }
+}
+
 .bn5:before {
   content: "";
   background: linear-gradient(
