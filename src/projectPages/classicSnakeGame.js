@@ -1,6 +1,6 @@
 import { ProjectPageStructureText } from "./projectPage.js"
 
-import snake1 from '../images/projectImages/snake/snake1.png'
+import snake1 from '../images/projectImages/snake/snake1.PNG'
 import snake2 from '../images/projectImages/snake/snake2.jpg'
 import snake3 from '../images/projectImages/snake/snake3.jpg'
 import snakegif1 from '../images/projectImages/snake/snakegif1.gif'
