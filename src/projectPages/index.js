@@ -4,12 +4,10 @@ import { MaDoggo } from './maDoggo'
 import { SpaceShot } from './spaceShot'
 import { Sudoku } from './sudoku'
 
-const ProjectPages = [
+export {
   ClassicSnakeGame,
   FlexPanelsGallery,
   MaDoggo,
   SpaceShot,
   Sudoku
-]
-
-export default ProjectPages
+}
