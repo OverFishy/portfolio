@@ -42,34 +42,42 @@ export class MySkills extends React.Component {
 }
 
 export class MySkillsTest extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { visible: '' };
-  }
-
-  onEnterViewport = () => {
-    setTimeout(() => {
-      this.setState({
-        visible: true,
-      })
-    }, 800);
-  }
-
-  onExitViewport = () => {
-    this.setState({
-      visible: false,
-    });
-  }
-
   render() {
-    return (
-      <div className={'content-card'}>
-        <div className='info'>
-          <img src={profilePic} alt='my profile img' />
-          <div className='profile-info'>
-            <h1>My skills</h1>
-            <h3>About myself</h3>
-            <div className='text-container'>
+    let width = window.innerWidth;
+    console.log(width);
+    if (width > 1060) {
+      return (
+        <div className={'content-card'}>
+          <div className='info'>
+            <img src={profilePic} alt='my profile img' />
+            <div className='profile-info'>
+              <h1>My skills</h1>
+              <h3>About myself</h3>
+              <div className='text-container'>
+                <p>My name is Ofek, I'm 25 Y.O from Tel-Aviv Israel,
+                  I would say I'm pretty outgoing and social and love to spend time hanging with
+                  friends & family.
+                  I keep an active lifestyle with a variety of different sports, I surf, play football, soccer  & workout!
+                  Every once in a while, I pack a bag, and go on a trip, by foot or my motorcycle.</p>
+                <Link className='btn-bio' to="/about">Keep reading my bio</Link>
+              </div>
+            </div>
+          </div>
+          <div className='badges'>
+            < Icons />
+          </div>
+        </div>
+      )
+    } else {
+      return (
+        <div className='content-card-mobile-container'>
+          <div className='content-card-mobile'>
+            <img src={profilePic} alt='my profile img' />
+            <div className='about-header'>
+              <h1>My skills</h1>
+              <h3>About myself</h3>
+            </div>
+            <div className='text'>
               <p>My name is Ofek, I'm 25 Y.O from Tel-Aviv Israel,
                 I would say I'm pretty outgoing and social and love to spend time hanging with
                 friends & family.
@@ -79,10 +87,7 @@ export class MySkillsTest extends React.Component {
             </div>
           </div>
         </div>
-        <div className='badges'>
-          < Icons />
-        </div>
-      </div>
-    )
+      )
+    }
   }
 }

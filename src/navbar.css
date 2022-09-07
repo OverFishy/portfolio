@@ -79,3 +79,14 @@ nav ul {
   padding: 0;
 }
 
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  nav {
+    width: 90%;
+    height: 4px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+}
