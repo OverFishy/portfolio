@@ -5,7 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About } from "./routes/about";
-import ProjectPages from './projectPages'
+import {
+  ClassicSnakeGame,
+  FlexPanelsGallery,
+  MaDoggo,
+  SpaceShot,
+  Sudoku
+} from './projectPages'
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
@@ -21,10 +27,12 @@ const root = ReactDOM.createRoot(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="about" element={<About />} />
-      {ProjectPages.map(ProjectPage => (
-        <Route path={ProjectPage.name} element ={<ProjectPage />} />
-      ))}
-      {/* <Route path="classicSnakeGame" element={<ClassicSnakeGame />} /> */}
+
+      <Route path="/ClassicSnakeGame" element={<ClassicSnakeGame />} />
+      <Route path="/FlexPanelsGallery" element={<FlexPanelsGallery />} />
+      <Route path="/MaDoggo" element={<MaDoggo />} />
+      <Route path="/SpaceShot" element={<SpaceShot />} />
+      <Route path="/Sudoku" element={<Sudoku />} />
     </Routes>
   </BrowserRouter>
 );
