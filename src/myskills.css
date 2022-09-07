@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-between;
   width: 60vw;
-  height: 310px;
+  height: 350px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
@@ -57,6 +57,7 @@
 
 .profile-info h1 {
   margin-bottom: 25px;
+  margin-top: 0;
 }
 
 .info:before {
