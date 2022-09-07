@@ -7,8 +7,8 @@ export function Header() {
       <div class="header" id='header'>
         <div class="inner-header flex">
           < NavBar />
-          <h1>Hello! ,I'm Ofek Shitrit | A fullstack Web Developer</h1>
-          <p>I just love exploring & creating, I'm a constent learner and I just go CRAZY for the beach</p>
+          <h1>Hello! ,I'm Ofek Shitrit | A Fullstack Web Developer</h1>
+          <p>I just love exploring & creating, I'm a constant learner and I just go CRAZY for the beach</p>
         </div>
         <div>
           <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -34,11 +34,3 @@ export function Header() {
 
 }
 
-
-// Original header
-{/* <header className="App-header">
-      < NavBar />
-      <h1>Hello! ,I'm Ofek Shitrit | A fullstack Web Developer</h1>
-      <h3>Social links</h3>
-      <p>I just love exploring & creating, I'm a constent learner and I just go CRAZY for the beach</p>
-    </header> */}
