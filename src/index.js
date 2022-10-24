@@ -10,7 +10,8 @@ import {
   FlexPanelsGallery,
   MaDoggo,
   SpaceShot,
-  Sudoku
+  Sudoku,
+  ChatApp
 } from './projectPages'
 
 // If you want to start measuring performance in your app, pass a function
@@ -33,6 +34,7 @@ const root = ReactDOM.createRoot(
       <Route path="/MaDoggo" element={<MaDoggo />} />
       <Route path="/SpaceShot" element={<SpaceShot />} />
       <Route path="/Sudoku" element={<Sudoku />} />
+      <Route path="/ChatApp" element={<ChatApp />} />
     </Routes>
   </BrowserRouter>
 );
