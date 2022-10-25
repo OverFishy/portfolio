@@ -1,0 +1,141 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: .4px;
+  background: white;
+  padding-top: 30px;
+}
+
+h1 {
+  line-height: initial;
+}
+
+.card {
+  display: inline-block;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+  margin: 20px;
+  position: relative;
+  /* margin-bottom: 100px; */
+  transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+@media (min-width: 500px) {
+  .card {
+    width: 55vw;
+  }
+}
+
+/* .card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-bottom: 54px;
+} */
+
+h4 {
+  color: #b3b3b3;
+}
+
+.image {
+  max-height: 350px;
+  opacity: .7;
+  overflow: hidden;
+  transition: all .5s ease-in-out;
+}
+
+.image image {
+  height: 100%;
+}
+
+.text {
+  background: #FFF;
+  padding: 20px;
+  min-height: 150px;
+}
+
+.text p {
+  margin-bottom: 0px;
+}
+
+.fab {
+  right: 10px;
+  margin-top: -47px;
+
+  width: 40px;
+  height: 40px;
+  font-size: 32px;
+  line-height: 32px;
+
+  border-radius: 50%;
+  position: absolute;
+
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, .3);
+  color: #fff;
+  text-align: center;
+  background: #0066A2;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+}
+
+@media (min-width: 400px) {
+  .fab {
+    right: 20px;
+    margin-top: -50px;
+
+    width: 60px;
+    height: 60px;
+
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+
+#plusbtn {
+  color: #fff;
+}
+
+.fab:hover {
+  background: #549D3C;
+  cursor: pointer;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.project-content {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+/* .gif-container-left, .gif-container-right {
+  width: 300px;
+}
+
+.gif-container-left img, .gif-container-right img {
+  width: 100%;
+  height: auto;
+} */
+
+.card-animate {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-bottom: 54px;
+}
+
+.card-animate .image {
+  max-height: 350px;
+  opacity: 1;
+}
+
+.fab a {
+  color: white;
+}
+
+#projects {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 4px;
+  font-size: 50px;
+  margin-bottom: 100px;
+}

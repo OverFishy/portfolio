@@ -1,0 +1,99 @@
+.HomePage {
+  text-align: center;
+  background-color: white;
+}
+
+.HomePage-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/*
+.project {
+  border: 1px solid black;
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+} */
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .HomePage-logo {
+    animation: HomePage-logo-spin infinite 20s linear;
+  }
+}
+
+/* .HomePage-header {
+  background-color: #5cdb95;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #edf5e1;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  min-height: 20vh;
+  color: #edf5e1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .links, .get-in-touch{
+  list-style-type: none;
+}
+
+.HomePage-link {
+  color: #61dafb;
+}
+
+.Nav-bar {
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills {
+  list-style-type: none;
+  display: flex;
+  /* width: 60%; */
+  justify-content: space-around;
+}
+
+.skills > li {
+  border: 1px solid black;
+}
+
+@keyframes HomePage-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#contact {
+  margin-bottom: 25px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size: 17px;
+  color: #000000;
+}
